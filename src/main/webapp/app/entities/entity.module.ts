@@ -1,9 +1,13 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
+import { TwentyOnePointsPointsModule } from './points/points.module';
+import { TwentyOnePointsUserSettingsModule } from './user-settings/user-settings.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
     imports: [
+        TwentyOnePointsPointsModule,
+        TwentyOnePointsUserSettingsModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
